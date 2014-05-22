@@ -1,0 +1,18 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+    <polymer-element name="resume-image" attributes= "img dis w h">
+      <template>
+        <style>
+
+        </style>
+        <img src="{{img}}" alt="{{dis}}" itemprop="image" width="{{w}}" height="{{h}}" />
+      </template>
+      <script> 
+	    Polymer('resume-image',{
+	    	img:"",
+	    	dis:"",
+	    	w:"",
+	    	h:"",
+	    }); 
+      </script>
+    </polymer-element>
