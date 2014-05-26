@@ -13,13 +13,13 @@ resume-image
   <script src="bower_components/platform/platform.js"></script>
   ```
 
-2. Import resume-aboutme
+2. Import resume-image
 
   ```html
   <link rel="import" href="elements/resume-image.html">
   ```
   
-3. call resume-aboutme
+3. call resume-image
 
   ```html
   <resume-image></resume-image>
